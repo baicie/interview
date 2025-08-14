@@ -6,13 +6,15 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "build:github": "NODE_ENV=production vitepress build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.13.0",
   "devDependencies": {
+    "@types/node": "^24.2.1",
     "vitepress": "^2.0.0-alpha.11"
   }
 }

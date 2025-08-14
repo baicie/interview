@@ -6,6 +6,7 @@ export default defineConfig({
   description: "前端面试高频题指南",
   lang: "zh-CN",
   lastUpdated: true,
+  base: process.env.NODE_ENV === "production" ? "/interview/" : "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
