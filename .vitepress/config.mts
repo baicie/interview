@@ -54,6 +54,11 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "数据类型", link: "/javascript/data-types" },
+            { text: "Symbol 详解", link: "/javascript/symbol" },
+            {
+              text: "引用类型常用方法",
+              link: "/javascript/reference-types-methods",
+            },
             { text: "作用域与闭包", link: "/javascript/scope-closure" },
             { text: "原型与继承", link: "/javascript/prototype-inheritance" },
             { text: "异步编程", link: "/javascript/async-programming" },
@@ -110,6 +115,10 @@ export default defineConfig({
             { text: "代码规范", link: "/engineering/code-standards" },
             { text: "测试", link: "/engineering/testing" },
             { text: "部署与CI/CD", link: "/engineering/deployment" },
+            {
+              text: "大数据表格优化",
+              link: "/engineering/large-table-optimization",
+            },
           ],
         },
       ],
@@ -166,5 +175,9 @@ export default defineConfig({
     returnToTopLabel: "回到顶部",
 
     lastUpdatedText: "最后更新时间",
+  },
+  vite: {
+    // TODO: add sidebar plugin
+    // plugins: [vitepressPluginSidebar()],
   },
 });
