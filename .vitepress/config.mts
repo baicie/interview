@@ -138,7 +138,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/your-repo/interview" },
+      { icon: "github", link: "https://github.com/baicie/interview" },
     ],
 
     search: {
