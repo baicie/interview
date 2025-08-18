@@ -9,6 +9,7 @@
 **现代构建工具**
 
 - [构建工具对比](./build-tools.md) - Webpack、Vite、Rollup 深度解析
+- [CI/CD 完全指南](./ci-cd-comprehensive.md) - GitHub Actions 与 Jenkins 深度解析
 
 **核心概念**
 

@@ -25,11 +25,14 @@ export default defineConfig({
         text: "知识分类",
         items: [
           { text: "JavaScript 基础", link: "/javascript/" },
+          { text: "CSS/HTML", link: "/css-html/" },
           { text: "浏览器相关", link: "/browser/" },
           { text: "网络协议", link: "/network/" },
           { text: "前端框架", link: "/frameworks/" },
+          { text: "TypeScript", link: "/typescript/" },
           { text: "后端开发", link: "/backend/" },
           { text: "工程化", link: "/engineering/" },
+          { text: "小程序开发", link: "/miniprogram/" },
           { text: "算法与数据结构", link: "/algorithms/" },
           { text: "场景题", link: "/scenario/" },
         ],
@@ -81,6 +84,7 @@ export default defineConfig({
             { text: "跨域问题", link: "/browser/cors" },
             { text: "存储机制", link: "/browser/storage" },
             { text: "性能优化", link: "/browser/performance" },
+            { text: "垃圾回收机制", link: "/browser/garbage-collection" },
             { text: "Web 安全防护", link: "/browser/security" },
             { text: "浏览器 API 详解", link: "/browser/api" },
             { text: "浏览器兼容性", link: "/browser/compatibility" },
@@ -126,6 +130,10 @@ export default defineConfig({
             { text: "前端测试策略", link: "/engineering/testing" },
             { text: "部署策略详解", link: "/engineering/deployment" },
             {
+              text: "CI/CD 完全指南",
+              link: "/engineering/ci-cd-comprehensive",
+            },
+            {
               text: "性能优化策略",
               link: "/engineering/performance-engineering",
             },
@@ -164,6 +172,70 @@ export default defineConfig({
             { text: "认证授权系统", link: "/backend/authentication" },
             { text: "微服务架构", link: "/backend/microservices" },
             { text: "Rust & Go 对比", link: "/backend/rust-go-comparison" },
+          ],
+        },
+      ],
+      "/css-html/": [
+        {
+          text: "CSS/HTML 核心技术",
+          collapsed: false,
+          items: [
+            { text: "HTML 基础与语义化", link: "/css-html/html-fundamentals" },
+            { text: "CSS 基础与选择器", link: "/css-html/css-fundamentals" },
+            { text: "CSS 布局技术", link: "/css-html/css-layout" },
+            { text: "CSS 动画与特效", link: "/css-html/css-animation" },
+            { text: "响应式设计", link: "/css-html/responsive-design" },
+            {
+              text: "CSS/HTML 面试题集",
+              link: "/css-html/interview-questions",
+            },
+          ],
+        },
+      ],
+      "/typescript/": [
+        {
+          text: "TypeScript 深度解析",
+          collapsed: false,
+          items: [
+            { text: "基础类型与语法", link: "/typescript/basic-types" },
+            { text: "高级类型与泛型", link: "/typescript/advanced-types" },
+            { text: "TypeScript 工程化", link: "/typescript/engineering" },
+            {
+              text: "TypeScript 面试题集",
+              link: "/typescript/interview-questions",
+            },
+          ],
+        },
+      ],
+      "/miniprogram/": [
+        {
+          text: "小程序开发",
+          collapsed: false,
+          items: [
+            { text: "小程序开发概览", link: "/miniprogram/" },
+            { text: "微信小程序基础", link: "/miniprogram/wechat-miniprogram" },
+            {
+              text: "小程序框架对比",
+              link: "/miniprogram/framework-comparison",
+            },
+            {
+              text: "组件开发实战",
+              link: "/miniprogram/component-development",
+            },
+            {
+              text: "底层实现原理",
+              link: "/miniprogram/architecture-principles",
+            },
+            { text: "状态管理方案", link: "/miniprogram/state-management" },
+            {
+              text: "性能优化策略",
+              link: "/miniprogram/performance-optimization",
+            },
+            { text: "云开发实践", link: "/miniprogram/cloud-development" },
+            {
+              text: "小程序面试题集",
+              link: "/miniprogram/interview-questions",
+            },
           ],
         },
       ],
