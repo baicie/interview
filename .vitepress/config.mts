@@ -7,6 +7,7 @@ export default defineConfig({
   lang: "zh-CN",
   lastUpdated: true,
   base: process.env.NODE_ENV === "production" ? "/interview/" : "/",
+  srcDir: "docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
@@ -16,10 +17,8 @@ export default defineConfig({
       {
         text: "模拟面试题",
         items: [
-          { text: "模拟题一", link: "/mock-test-1" },
-          { text: "模拟题二", link: "/mock-test-2" },
-          { text: "模拟题三", link: "/mock-test-3" },
-          { text: "模拟题四", link: "/mock-test-4" },
+          { text: "模拟题一", link: "/mocks/mock-test-1" },
+          { text: "模拟题二", link: "/mocks/mock-test-2" },
         ],
       },
       {
@@ -43,10 +42,8 @@ export default defineConfig({
           text: "模拟面试题",
           collapsed: false,
           items: [
-            { text: "模拟题一", link: "/mock-test-1" },
-            { text: "模拟题二", link: "/mock-test-2" },
-            { text: "模拟题三", link: "/mock-test-3" },
-            { text: "模拟题四", link: "/mock-test-4" },
+            { text: "模拟题一", link: "/mocks/mock-test-1" },
+            { text: "模拟题二", link: "/mocks/mock-test-2" },
           ],
         },
       ],
@@ -123,11 +120,18 @@ export default defineConfig({
           text: "工程化",
           collapsed: false,
           items: [
-            { text: "构建工具", link: "/engineering/build-tools" },
-            { text: "模块化", link: "/engineering/modularity" },
-            { text: "代码规范", link: "/engineering/code-standards" },
-            { text: "测试", link: "/engineering/testing" },
-            { text: "部署与CI/CD", link: "/engineering/deployment" },
+            { text: "构建工具对比", link: "/engineering/build-tools" },
+            { text: "CSS 工程化方案", link: "/engineering/css-engineering" },
+            { text: "代码质量管控", link: "/engineering/code-quality" },
+            { text: "前端测试策略", link: "/engineering/testing" },
+            { text: "部署策略详解", link: "/engineering/deployment" },
+            {
+              text: "性能优化策略",
+              link: "/engineering/performance-engineering",
+            },
+            { text: "微前端实战", link: "/engineering/micro-frontend" },
+            { text: "包管理最佳实践", link: "/engineering/package-management" },
+            { text: "Git 常用命令", link: "/engineering/git-commands" },
             {
               text: "大数据表格优化",
               link: "/engineering/large-table-optimization",
