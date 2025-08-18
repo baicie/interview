@@ -69,7 +69,7 @@
 
 **Angular 核心架构**
 
-- [Angular 企业开发](./angular.md) - TypeScript + 依赖注入的企业级方案
+- Angular 企业开发 - TypeScript + 依赖注入的企业级方案
 
 **核心概念**
 
@@ -119,7 +119,7 @@
 
 **设计模式**
 
-- [组件设计模式](./component-patterns.md) - 可复用组件的设计原则
+- [组件设计模式](./component-design.md) - 可复用组件的设计原则
 
 **React 模式**
 

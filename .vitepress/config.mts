@@ -134,6 +134,10 @@ export default defineConfig({
               link: "/engineering/ci-cd-comprehensive",
             },
             {
+              text: "Docker + Nginx 部署",
+              link: "/engineering/docker-nginx-deployment",
+            },
+            {
               text: "性能优化策略",
               link: "/engineering/performance-engineering",
             },

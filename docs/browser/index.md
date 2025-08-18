@@ -125,7 +125,7 @@
 
 **现代浏览器 API**
 
-- [浏览器 API 详解](./browser-apis.md) - 实用 API 大全
+- [浏览器 API 详解](./api.md) - 实用 API 大全
 
 **核心 API**
 

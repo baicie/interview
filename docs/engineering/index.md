@@ -10,6 +10,7 @@
 
 - [构建工具对比](./build-tools.md) - Webpack、Vite、Rollup 深度解析
 - [CI/CD 完全指南](./ci-cd-comprehensive.md) - GitHub Actions 与 Jenkins 深度解析
+- [Docker + Nginx 部署](./docker-nginx-deployment.md) - 容器化部署与反向代理完整方案
 
 **核心概念**
 

@@ -807,6 +807,7 @@ module.exports = {
 ### 提交信息格式
 ```
 
+```
 <type>(<scope>): <subject>
 
 <body>
@@ -814,6 +815,7 @@ module.exports = {
 <footer>
 ```
 
+```markdown
 ### 类型说明
 
 - feat: 新功能
@@ -825,6 +827,7 @@ module.exports = {
 - chore: 构建相关
 
 ### 示例
+```
 
 ```
 feat(auth): add login validation
@@ -835,6 +838,7 @@ for the login form component.
 Closes #123
 ```
 
+```markdown
 ## 代码规范
 
 ### 命名规范
@@ -845,15 +849,16 @@ Closes #123
 - 文件: kebab-case (user-profile.tsx)
 
 ### 文件组织
-
 ```
+
 src/
-├── components/        # 可复用组件
-├── pages/            # 页面组件
-├── hooks/            # 自定义 Hooks
-├── utils/            # 工具函数
-├── types/            # 类型定义
-└── constants/        # 常量定义
+├── components/ # 可复用组件
+├── pages/ # 页面组件
+├── hooks/ # 自定义 Hooks
+├── utils/ # 工具函数
+├── types/ # 类型定义
+└── constants/ # 常量定义
+
 ```
 
 ```
@@ -863,6 +868,7 @@ src/
 ### Q1: 如何在团队中推广代码质量工具？
 
 **回答框架：**
+
 1. **渐进式引入**：从基础规则开始，逐步完善
 2. **工具化**：自动化检查，减少人工成本
 3. **文档化**：提供清晰的规范文档
@@ -871,6 +877,7 @@ src/
 ### Q2: ESLint 和 Prettier 的冲突如何解决？
 
 **解决方案：**
+
 1. 使用 `eslint-config-prettier` 关闭冲突规则
 2. 运行顺序：ESLint 先检查，Prettier 后格式化
 3. 编辑器集成：保存时自动执行两个工具
@@ -878,10 +885,10 @@ src/
 ### Q3: Git Hooks 失败时如何处理？
 
 **处理策略：**
+
 1. **bypass 选项**：紧急情况下使用 `--no-verify`
 2. **错误提示**：清晰的错误信息和修复建议
 3. **本地修复**：提供快速修复命令
 4. **CI 兜底**：CI 环境再次检查
 
 这样的代码质量管控体系能确保团队代码的一致性和可维护性！
-```

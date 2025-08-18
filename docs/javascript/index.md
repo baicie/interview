@@ -82,10 +82,9 @@ JavaScript 是前端开发的核心技术，也是面试中最重要的考察点
 
 - [数组方法详解](./array-methods.md) - 25+ 数组方法完整指南
 
-**字符串与对象操作**
+**引用类型方法**
 
-- [字符串方法](./string-methods.md) - 字符串处理与正则表达式实战
-- [对象操作方法](./object-methods.md) - Object 静态方法与属性描述符
+- [引用类型方法详解](./reference-types-methods.md) - 字符串、对象等引用类型的核心方法
 
 **核心 API 分类**
 

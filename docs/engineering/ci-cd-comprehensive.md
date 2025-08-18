@@ -2537,4 +2537,4 @@ CI/CD 是现代软件开发的基石，GitHub Actions 和 Jenkins 各有优势�
 
 ---
 
-🎯 **下一步**: 了解 CI/CD 后，建议学习 [容器化部署](./containerization.md) 和 [微服务架构](./microservices.md) 来完善你的 DevOps 技能栈！
+🎯 **下一步**: 了解 CI/CD 后，建议学习容器化部署和微服务架构来完善你的 DevOps 技能栈！

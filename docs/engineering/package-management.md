@@ -1840,7 +1840,3 @@ echo "   3. Open http://localhost:3000 in your browser"
 3. **性能要求**：高性能选 pnpm
 4. **兼容性**：最大兼容性选 npm
 5. **特殊需求**：Yarn 的 PnP 等特性
-
-<function_calls>
-<invoke name="todo_write">
-<parameter name="merge">true
