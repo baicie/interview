@@ -17,8 +17,8 @@ export default defineConfig({
       {
         text: "模拟面试题",
         items: [
-          { text: "模拟题一", link: "/mocks/mock-test-1" },
-          { text: "模拟题二", link: "/mocks/mock-test-2" },
+          { text: "模拟题一", link: "/mocks/question-1" },
+          { text: "模拟题二", link: "/mocks/question-2" },
         ],
       },
       {
